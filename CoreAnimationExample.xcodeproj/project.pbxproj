@@ -116,10 +116,8 @@
 			children = (
 				4968287119C356D900F4E62D /* AppDelegate.h */,
 				4968287219C356D900F4E62D /* AppDelegate.m */,
-				4968287419C356D900F4E62D /* Main_iPhone.storyboard */,
-				4968287719C356D900F4E62D /* Main_iPad.storyboard */,
-				4968287A19C356D900F4E62D /* ViewController.h */,
-				4968287B19C356D900F4E62D /* ViewController.m */,
+				4968289A19C3570F00F4E62D /* View */,
+				4968289B19C3571C00F4E62D /* Controller */,
 				4968287D19C356D900F4E62D /* Images.xcassets */,
 				4968286919C356D800F4E62D /* Supporting Files */,
 			);
@@ -153,6 +151,24 @@
 				4968288D19C356D900F4E62D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4968289A19C3570F00F4E62D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4968287419C356D900F4E62D /* Main_iPhone.storyboard */,
+				4968287719C356D900F4E62D /* Main_iPad.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4968289B19C3571C00F4E62D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4968287A19C356D900F4E62D /* ViewController.h */,
+				4968287B19C356D900F4E62D /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
